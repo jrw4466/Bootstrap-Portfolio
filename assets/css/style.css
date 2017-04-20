@@ -10,8 +10,6 @@ body {
 	color: #777;
 }
 
-/* CCS Home W1 */
-
 .navbar {
 	background: white;
 }
@@ -40,7 +38,12 @@ body {
 	width: 50px;
 	height: 50px;
 }
-/*End */
+
+
+.connect {
+    padding: 15px;
+    text-align: center;
+}
 
 footer {
 	background: #666;
@@ -77,17 +80,16 @@ footer {
 
 /*portfolio*/
 
-#auth-image {
-	/*width: 200px;*/
-	/*height: 180px;*/
-	/*height: auto;*/
-	margin-top: 10px;
-	float: left;
-	margin-right: 25px;
+
+.thumbnail a>img, .thumbnail>img {
+    margin-right: auto;
+    margin-left: auto;
+    height: 200px;
 }
 
 .thumbnail {
 	width: 274px;
+	height: 200px;
 	overflow: hidden;
 	position: relative;
 	float: left;
@@ -95,6 +97,11 @@ footer {
 }
 
 .thumbnail:nth-child(even) {
+	margin-right: 40px;
+}
+
+.thumbnail:nth-child(odd) {
+	margin-left: 20px;
 	margin-right: 40px;
 }
 
