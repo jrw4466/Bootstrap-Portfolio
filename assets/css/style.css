@@ -28,10 +28,11 @@ body {
 }
 
 #profilepic {
-	width: 250px;
-	height: 200px;
-	float: left;
-	margin-right: 25px;
+    width: 210px;
+    height: 175px;
+    float: left;
+    margin-right: 25px;
+    transform: rotate(90deg);
 }
 
 .img-rounded {
